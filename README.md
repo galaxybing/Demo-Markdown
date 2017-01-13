@@ -62,15 +62,13 @@
 (默认的文本行首空格都会被忽略，要显示空格布局,需要将输入法由半角改成全角；苹果的 Mac OS 系统自带的输入法是不具有全角半角切换的功能，请自行安装对应中文输入法)
 
 ###单行文本
-
-    单行文本
-(行首两个 tab 空格)
+    单行文本
+(行首4个空格，且整体前面、后面补空行后生效)
 
 ###多行文本
-
     多行文本，行一
     多行文本，行二
-(各行首两个 tab 空格或者4个空格，且整体前面补空行后生效)
+(所有行首两个 tab 空格或者4个空格)
 
 ```
 多行文本，行一
@@ -193,11 +191,11 @@
 语法高亮
 
 ```Java
-public static void main(String[]args){} //java
+public static void main(String[]args){} // java
 ```
 
 ```C
-int main(int argc, char *argv[]) //c
+int main(int argc, char *argv[]) // c
 ```
 
 ```Bash
