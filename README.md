@@ -70,11 +70,11 @@
 
     多行文本，行一
     多行文本，行二
-    
-(各行首两个 tab 空格或者4个空格，且整体前后补空行后生效)
+(各行首两个 tab 空格或者4个空格，且整体前面补空行后生效)
+
 ```
-    多行文本，行一
-    多行文本，行二
+多行文本，行一
+多行文本，行二
 ``` 
 (整体前后补3个反引号)
 
@@ -184,7 +184,7 @@
 ![](http://getfirebug.com/img/firebug-large.png)  
 (`![](http://getfirebug.com/img/firebug-large.png) `)
 
-* 使用仓库内部的图片资源链接    
+* 使用仓库内部的图片资源链接<br />  
 ![](https://github.com/galaxybing/demo-Markdown/raw/master/assets/firebug.png)  
 ![](/assets/firebug.png)  
 ![][firebug]  
