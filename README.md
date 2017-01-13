@@ -184,7 +184,7 @@
 ![](http://getfirebug.com/img/firebug-large.png)  
 (`![](http://getfirebug.com/img/firebug-large.png) `)
 
-* 使用仓库内部的图片资源链接  
+* 使用仓库内部的图片资源链接    
 ![](https://github.com/galaxybing/demo-Markdown/raw/master/assets/firebug.png)  
 ![](/assets/firebug.png)  
 ![][firebug]  
