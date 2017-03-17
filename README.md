@@ -146,7 +146,7 @@
 操作样式
 -
 ### 文本超链接
-[text](你的链接地址)
+[link text](http://noonteam.com)
 
 |#|语法|效果|
 |---|----|-----
@@ -155,9 +155,9 @@
 |2|`[zhihu]:https://www.zhihu.com/people/wang-yin-he-30/activities "我的知乎，欢迎关注"`|   
 
 ### 图片超链接
-```
-[![alt text](http://www.noonteam.com/assets/images/favicon.png "title")](你的链接地址)
-``` 
+[![favicon]][uriblog]
+[![alt text](http://www.noonteam.com/assets/images/favicon.png "title")](http://noonteam.com)
+
 ### 图片引用
 * 使用web资源链接
 ![alt text](http://www.noonteam.com/assets/images/favicon.png "title")
@@ -166,7 +166,6 @@
 	![](/assets/firebug.png)  
 	![][firebug]  
 	```
-	（`![](https://github.com/galaxybing/demo-Markdown/raw/master/assets/firebug.png)` ）
 ### 锚点  
 每一个标题文本都是带有锚点性质的，`[](#标题文本)`即可直接使用其锚点特性 
 
@@ -200,8 +199,8 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 具体每一个表情的符号码，可以查询GitHub的官方网页[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。
 
 --------------------------------
-### URI标识(一般放最后)
+### URI标识(一般放最后),Reference-style 在使用时， URI 标识需要用 [] 来括起来，如`[![favicon]][uriblog]`
 ```
-[ghost]:http://noonteam.com "我的博客"
-[firebug]:https://github.com/galaxybing/demo-Markdown/raw/master/assets/firebug.png
+[uriblog]:http://noonteam.com
+[favicon]:http://www.noonteam.com/assets/images/favicon.png "提示"
 ```
