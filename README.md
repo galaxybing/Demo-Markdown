@@ -146,6 +146,7 @@
 操作样式
 -
 ### 文本超链接
+[text](你的链接地址)
 
 |#|语法|效果|
 |---|----|-----
@@ -153,28 +154,21 @@
 |2|`[我的知乎][zhihu] `|[我的知乎][zhihu] 
 |2|`[zhihu]:https://www.zhihu.com/people/wang-yin-he-30/activities "我的知乎，欢迎关注"`|   
 
-语法2由两部分组成：
-- 第一部分使用两个中括号，[ ]里的标识符（本例中zhihu），可以是数字，字母等的组合，标识符上下对应就行了（**姑且称之为URL标识符**）
-- 第二部分标记实际URL。
-
 ### 图片超链接
 ```
-[![](/assets/firebug.png "i'm firebug")][firebug]
-```
-
-### 锚点  
-每一个标题文本都是带有锚点性质的，`[](#标题文本)`即可直接使用其锚点特性  
-
-### 引用图片资源
-* 使用web资源链接  
-(`![](http://getfirebug.com/img/firebug-large.png) `)
-
+[![alt text](http://www.noonteam.com/assets/images/favicon.png "title")](你的链接地址)
+``` 
+### 图片引用
+* 使用web资源链接
+![alt text](http://www.noonteam.com/assets/images/favicon.png "title")
 * 使用仓库内部的图片资源链接<br />  
-```
-![](/assets/firebug.png)  
-![][firebug]  
-```
-（`![](https://github.com/galaxybing/demo-Markdown/raw/master/assets/firebug.png)` ）
+	```
+	![](/assets/firebug.png)  
+	![][firebug]  
+	```
+	（`![](https://github.com/galaxybing/demo-Markdown/raw/master/assets/firebug.png)` ）
+### 锚点  
+每一个标题文本都是带有锚点性质的，`[](#标题文本)`即可直接使用其锚点特性 
 
 ### 语法高亮
 
