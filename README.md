@@ -1,4 +1,4 @@
-##目录
+## 目录
 * [文本样式](#文本样式)
 * [布局样式](#布局样式)
 * [操作样式](#操作样式)
@@ -105,19 +105,8 @@
 ####有序列表自动排序
 也可以在第一行指定`1. `，而接下来的几行用星号`*`（或者继续用数字1. ）就可以了，它会自动显示成2、3、4……。    
 
-
-1. 开闭原则
-* 里氏转换原则
-* 依赖倒转原则
-* 接口隔离原则
-* 组合/聚合复用原则
-* “迪米特”法则
-* 单一职责原则
-
-
-1. es3 - 初学者一开始学习JavaScript，其实就是在学3.0版的语法
-* es5 - 中止ECMAScript 4.0的开发，发布ECMAScript 3.1 ，且改名为 ECMAScript 5，2011年6月 ECMAscript 5.1
-
+1.	es3初学者一开始学习JavaScript，其实就是在学3.0版的语法
+*	es5中止ECMAScript 4.0的开发，发布ECMAScript 3.1 ，且改名为 ECMAScript 5，2011年6月 ECMAscript 5.1
 
 ####多级有序列表
 和无序列表一样，有序列表也有多级结构：  
@@ -176,21 +165,23 @@
 - 第一部分使用两个中括号，[ ]里的标识符（本例中zhihu），可以是数字，字母等的组合，标识符上下对应就行了（**姑且称之为URL标识符**）
 - 第二部分标记实际URL。
 
-###图片超链接
+### 图片超链接
+```
 [![](/assets/firebug.png "i'm firebug")][firebug]
+```
 
 ###锚点  
 每一个标题文本都是带有锚点性质的，`[](#标题文本)`即可直接使用其锚点特性  
 
-###引用图片资源
+### 引用图片资源
 * 使用web资源链接  
-![](http://getfirebug.com/img/firebug-large.png)  
 (`![](http://getfirebug.com/img/firebug-large.png) `)
 
 * 使用仓库内部的图片资源链接<br />  
-![](https://github.com/galaxybing/demo-Markdown/raw/master/assets/firebug.png)  
+```
 ![](/assets/firebug.png)  
 ![][firebug]  
+```
 （`![](https://github.com/galaxybing/demo-Markdown/raw/master/assets/firebug.png)` ）
 
 语法高亮
