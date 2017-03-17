@@ -161,13 +161,15 @@
 [![alt text](http://www.noonteam.com/assets/images/favicon.png "title")](http://noonteam.com)
 
 ### 图片引用
-* 使用web资源链接
+使用web资源链接
+```
 ![alt text](http://www.noonteam.com/assets/images/favicon.png "title")
-* 使用仓库内部的图片资源链接<br />  
-	```
-	![](/assets/firebug.png)  
-	![][firebug]  
-	```
+```
+使用仓库内部的图片资源链接<br />  
+```
+![](/assets/firebug.png)  
+![][firebug]  
+```
 ### 锚点  
 每一个标题文本都是带有锚点性质的，`[](#标题文本)`即可直接使用其锚点特性 
 
