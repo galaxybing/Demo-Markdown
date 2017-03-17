@@ -155,7 +155,9 @@
 |2|`[zhihu]:https://www.zhihu.com/people/wang-yin-he-30/activities "我的知乎，欢迎关注"`|   
 
 ### 图片超链接
+```
 [![favicon]][uriblog]
+```
 [![alt text](http://www.noonteam.com/assets/images/favicon.png "title")](http://noonteam.com)
 
 ### 图片引用
